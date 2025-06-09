@@ -1,0 +1,23 @@
+{
+	"name": "simple-hide-show-blocks",
+	"version": "1.0.0",
+	"description": "Easily hide/show Block Editor (Gutenberg) blocks with the flick of a switch.",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@wordpress/scripts": "^30.13.0"
+	},
+	"dependencies": {
+		"@wordpress/icons": "^10.25.0"
+	}
+}

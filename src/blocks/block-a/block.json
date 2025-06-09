@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "shsb/block-a",
+	"version": "1.0.0",
+	"title": "SHSB Block A",
+	"category": "layout",
+	"description": "Content in here will display when 'Block A' is selected on the options screen.",
+	"supports": {
+		"align": true
+	},
+	"keywords": [
+		"blocka",
+		"ablock",
+		"conditional'",
+		"active",
+		"hide",
+		"show"
+	],
+	"textdomain": "simple-hide-show-blocks",
+	"editorScript": "file:./index.js"
+}
