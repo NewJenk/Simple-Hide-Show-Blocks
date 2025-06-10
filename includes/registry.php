@@ -61,6 +61,7 @@ class Registry
 
         $this->add('Blocks', new Blocks());
         $this->add('Options', new Options());
+        $this->add('Deactivation', new Deactivation());
 
     }
 
