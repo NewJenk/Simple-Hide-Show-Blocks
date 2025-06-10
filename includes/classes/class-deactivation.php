@@ -19,7 +19,7 @@ class Deactivation {
 
 
     /**
-     * custom option and settings
+     * Delete option.
      */
     function delete_options() {
 
