@@ -51,10 +51,3 @@ var_dump($the_test->get('service1')->doSomething()); */
 
 // Set text domain
 load_plugin_textdomain('simple-hide-show-blocks');
-
-/**
- * Delete option on plugin deactivation.
- */
-register_deactivation_hook(__FILE__, function () {
-	delete_option('shsb_opts');
-});
